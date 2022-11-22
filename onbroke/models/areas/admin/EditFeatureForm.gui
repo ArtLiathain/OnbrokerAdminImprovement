@@ -1,0 +1,362 @@
+GUI _-UC0cVuXEe28kPQ81TnB9g {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "EditFeatureForm"
+  DataContext _-ULXUVuXEe28kPQ81TnB9g at 10,10 size 180,506 {
+  	dfViewWorkaround true
+  	PrimitiveVariable _21LkQVuZEe28kPQ81TnB9g at 10,190 size 140,25 {
+  		dataType Text
+  		isInput true
+  		name "title"
+  		dfViewWorkaround true
+  		isList false
+  		-FormSubmit-> _BjRJpFuYEe28kPQ81TnB9g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _4obDgVuZEe28kPQ81TnB9g
+  		}
+  		
+  		-AddPrimitiveToSubmission-> _BjRJk1uYEe28kPQ81TnB9g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _5IHQMVuZEe28kPQ81TnB9g
+  		}
+  	}
+  	
+  	ComplexVariable _wQV74WBHEe2RjrkbQARhdg at 10,40 size 160,132 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput true
+  		name "feature"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _KkW00WFREe2XfdtRO-swOg at 10,77 size 140,25 {
+  			libraryComponentUID "_pse4kVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _KkfXsWFREe2XfdtRO-swOg at 10,50 size 140,25 {
+  			libraryComponentUID "_czYfMVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _Kkf-wWFREe2XfdtRO-swOg at 10,104 size 140,25 {
+  			libraryComponentUID "_JgCw0VHqEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _Kkk3QWFREe2XfdtRO-swOg at 10,23 size 140,25 {
+  			libraryComponentUID "_r5kYIVLOEe2djpkPxa2Z3Q"
+  			isLive false
+  		}
+  	}
+  	
+  	ComplexVariable _URlvIWFREe2XfdtRO-swOg at 10,240 size 160,105 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  		isInput true
+  		name "prioritylist"
+  		dfViewWorkaround true
+  		isList true
+  		ComplexListAttribute _YG2wgWFREe2XfdtRO-swOg at 10,23 size 140,25 {
+  			attributeName last
+  			libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _YHCWsWFREe2XfdtRO-swOg at 10,50 size 140,25 {
+  			attributeName first
+  			libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveListAttribute _YHPyEWFREe2XfdtRO-swOg at 10,77 size 140,25 {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		-ComplexListAttributeConnector-> _Zb6e8WFREe2XfdtRO-swOg  decorate "Ellipse" at (0,0) {
+  			id _ZcEP8WFREe2XfdtRO-swOg
+  			attributeName current
+  		}
+  		
+  		-ComplexChoiceData-> _XooY4WFQEe2XfdtRO-swOg  decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
+  			id _d9IAUWFREe2XfdtRO-swOg
+  		}
+  	}
+  	
+  	ComplexVariable _Zb6e8WFREe2XfdtRO-swOg at 10,380 size 160,25 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  		isInput false
+  		name "currentp"
+  		dfViewWorkaround true
+  		isList false
+  		-Display-> _XooY4WFQEe2XfdtRO-swOg  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _ewev4WFREe2XfdtRO-swOg
+  		}
+  	}
+  	
+  	ComplexVariable _jXQtwWFREe2XfdtRO-swOg at 5,451 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  		isInput true
+  		name "priority"
+  		dfViewWorkaround true
+  		isList false
+  		-FormSubmit-> _XooY4WFQEe2XfdtRO-swOg  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _rXmocWFREe2XfdtRO-swOg
+  		}
+  		
+  		-AddComplexToSubmission-> _BjRJk1uYEe28kPQ81TnB9g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _sIgg8WFREe2XfdtRO-swOg
+  		}
+  	}
+  }
+  
+  Template _-UMlcVuXEe28kPQ81TnB9g at 240,10 size 570,580 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _-URd8FuXEe28kPQ81TnB9g {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _-USFAVuXEe28kPQ81TnB9g at 10,30 size 550,520 {
+  		generalStyle GeneralStyling _-UdrMFuXEe28kPQ81TnB9g {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _-UT6MFuXEe28kPQ81TnB9g at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _-UVIUVuXEe28kPQ81TnB9g at 2,10 size 14,7 {
+  		}
+  		
+  		Col _-UYLoFuXEe28kPQ81TnB9g at 10,30 size 520,470 {
+  			wideness Full
+  			layout Layout _-UdEIFuXEe28kPQ81TnB9g {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _-UcdEFuXEe28kPQ81TnB9g {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _-UZZwVuXEe28kPQ81TnB9g at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _-UaA0FuXEe28kPQ81TnB9g at 10,2 size 7,14 {
+  			}
+  			
+  			Form _BjP7YVuYEe28kPQ81TnB9g at 10,30 size 500,410 {
+  				inline false
+  				generalStyle GeneralStyling _BjRJi1uYEe28kPQ81TnB9g {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _BjRJjVuYEe28kPQ81TnB9g at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _BjRJkFuYEe28kPQ81TnB9g at 2,10 size 14,7 {
+  				}
+  				
+  				Field _BjRJpFuYEe28kPQ81TnB9g at 10,30 size 200,60 {
+  					maxMB 0
+  					inputType Text
+  					label "Title"
+  					styling FormFieldStyling _BjRwkFuYEe28kPQ81TnB9g {
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					additionalOptions FormFieldAdditionalOptions _BjRJq1uYEe28kPQ81TnB9g {
+  							emptyValue "{{feature.title}}"
+  							readonly false
+  						}
+  					validation FormFieldValidation _BjRJrFuYEe28kPQ81TnB9g {
+  							min 0
+  							max -1
+  							required true
+  						}
+  					disabled false
+  					icon Icon _BjRJqluYEe28kPQ81TnB9g {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _BjRJqVuYEe28kPQ81TnB9g {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _BjRwkluYEe28kPQ81TnB9g at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _BjRwlVuYEe28kPQ81TnB9g at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Row _sFP0cWBHEe2RjrkbQARhdg at 10,210 size 480,170 {
+  					generalStyle GeneralStyling _sFjWcGBHEe2RjrkbQARhdg {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _sFV7EWBHEe2RjrkbQARhdg at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _sFWiIWBHEe2RjrkbQARhdg at 2,10 size 14,7 {
+  					}
+  					
+  					Col _sFYXUWBHEe2RjrkbQARhdg at 10,30 size 220,120 {
+  						wideness Full
+  						layout Layout _sFfFAGBHEe2RjrkbQARhdg {
+  								size Default
+  								offset None
+  								alignment Left
+  							}
+  						generalStyle GeneralStyling _sFaMgGBHEe2RjrkbQARhdg {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveLeft _sFY-YWBHEe2RjrkbQARhdg at 2,2 size 7,14 {
+  						}
+  						
+  						MoveRight _sFZlcWBHEe2RjrkbQARhdg at 10,2 size 7,14 {
+  						}
+  						
+  						Button _BjRJk1uYEe28kPQ81TnB9g at 10,30 size 200,60 {
+  							label "Submit"
+  							styling ButtonStyling _BjRJmluYEe28kPQ81TnB9g {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Green
+  								}
+  							options ButtonOptions _BjRJm1uYEe28kPQ81TnB9g {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon _BjRJmVuYEe28kPQ81TnB9g {
+  									postIcon None
+  									preIcon None
+  								}
+  							generalStyle GeneralStyling _BjRJmFuYEe28kPQ81TnB9g {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							MoveUp _BjRJnVuYEe28kPQ81TnB9g at 2,2 size 14,7 {
+  							}
+  							
+  							MoveDown _BjRJoFuYEe28kPQ81TnB9g at 2,10 size 14,7 {
+  							}
+  						}
+  					}
+  					
+  					Col _tI97QWBHEe2RjrkbQARhdg at 240,30 size 220,120 {
+  						wideness Full
+  						layout Layout _tJF3EGBHEe2RjrkbQARhdg {
+  								size Default
+  								offset None
+  								alignment Right
+  							}
+  						generalStyle GeneralStyling _tJA-kGBHEe2RjrkbQARhdg {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveLeft _tI-iUWBHEe2RjrkbQARhdg at 2,2 size 7,14 {
+  						}
+  						
+  						MoveRight _tJAXgWBHEe2RjrkbQARhdg at 10,2 size 7,14 {
+  						}
+  						
+  						Button _BjRwmVuYEe28kPQ81TnB9g at 10,30 size 200,60 {
+  							label "Cancel"
+  							styling ButtonStyling _BjRwoFuYEe28kPQ81TnB9g {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Yellow
+  								}
+  							options ButtonOptions _BjRwoVuYEe28kPQ81TnB9g {
+  									isLink false
+  									submitsForm false
+  								}
+  							disabled false
+  							icon Icon _BjRwn1uYEe28kPQ81TnB9g {
+  									postIcon None
+  									preIcon None
+  								}
+  							generalStyle GeneralStyling _BjRwnluYEe28kPQ81TnB9g {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							MoveUp _BjRwo1uYEe28kPQ81TnB9g at 2,2 size 14,7 {
+  							}
+  							
+  							MoveDown _BjRwpluYEe28kPQ81TnB9g at 2,10 size 14,7 {
+  							}
+  						}
+  					}
+  				}
+  				
+  				Radio _XooY4WFQEe2XfdtRO-swOg at 10,100 size 200,100 {
+  					label "Priority"
+  					styling SelectFormFieldStyling _XqGYgGFQEe2XfdtRO-swOg {
+  							inline false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					additionalOptions FormFieldAdditionalOptions _Xp91oGFQEe2XfdtRO-swOg {
+  							readonly false
+  						}
+  					validation FormFieldValidation _Xp0rsGFQEe2XfdtRO-swOg {
+  							min 0
+  							max -1
+  							required true
+  						}
+  					disabled false
+  					icon Icon _XphwwGFQEe2XfdtRO-swOg {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _XpYm0GFQEe2XfdtRO-swOg {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _XpNnsWFQEe2XfdtRO-swOg at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _XpOOwWFQEe2XfdtRO-swOg at 2,10 size 14,7 {
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}
